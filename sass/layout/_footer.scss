@@ -3,7 +3,7 @@
   font-weight: 400;
   color: #fff;
 }
-.footer-container {
+.footer__container {
   display: flex;
   flex-direction: row;
   padding: 60px 0;
@@ -11,14 +11,14 @@
 .address-container {
   margin-right: 70px;
 }
-.footer-address-container {
+.footer__address-container {
   display: flex;
   flex-direction: column;
   &:not(:last-child) {
     margin-bottom: 9px;
   }
 }
-.footer-logo {
+.footer__logo {
   color: var(--active-color);
   margin-bottom: 20px;
 }
@@ -57,7 +57,7 @@
     color: var(--active-color);
   }
 }
-.social__container {
+.social {
   margin-right: 93px;
 }
 .social__title {
@@ -136,7 +136,7 @@
   text-align: center;
   color: var(--revers-color);
 }
-.submit__icon {
+.submit-icon {
   fill: var(--revers-color);
   margin-left: 10px;
 }
